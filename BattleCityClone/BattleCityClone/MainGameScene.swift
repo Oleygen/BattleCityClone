@@ -37,8 +37,8 @@ class MainGameScene: SKScene {
         
         let size = CGSize(width: minimumSizeDimension, height: minimumSizeDimension)
         
-        let tileGroup = SKTileGroup(rules: <#T##[SKTileGroupRule]#>)
-        tileMap?.fill
+        // let tileGroup = SKTileGroup(rules: <#T##[SKTileGroupRule]#>)
+        // tileMap?.fill
     }
     
     override func sceneDidLoad() {
