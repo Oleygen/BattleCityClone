@@ -50,4 +50,19 @@ class MainGameScene: SKScene {
     }
     
     
+    override func keyDown(with event: NSEvent) {
+        self.handleKeyEvent(event: event)
+    }
+    
+    override func keyUp(with event: NSEvent) {
+        self.handleKeyEvent(event: event)
+    }
+    
+    
+    private func handleKeyEvent(event:NSEvent)
+    {
+        print(event)
+    }
+    
+    
 }

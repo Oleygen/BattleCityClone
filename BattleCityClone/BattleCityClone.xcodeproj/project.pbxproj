@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F84DA7B321A24D4300CC47FA /* shot.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA79F21A24D3C00CC47FA /* shot.wav */; };
+		F84DA7B421A24D4300CC47FA /* bonus-appeared.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7A021A24D3D00CC47FA /* bonus-appeared.wav */; };
+		F84DA7B521A24D4300CC47FA /* tank-stay.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7A121A24D3D00CC47FA /* tank-stay.wav */; };
+		F84DA7B621A24D4300CC47FA /* evemy-destroyed.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7A221A24D3E00CC47FA /* evemy-destroyed.wav */; };
+		F84DA7B721A24D4300CC47FA /* bonus-taken.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7A321A24D3E00CC47FA /* bonus-taken.wav */; };
+		F84DA7B821A24D4300CC47FA /* Battle City SFX (9).wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7A421A24D3F00CC47FA /* Battle City SFX (9).wav */; };
+		F84DA7B921A24D4300CC47FA /* Battle City SFX (8).wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7A521A24D3F00CC47FA /* Battle City SFX (8).wav */; };
+		F84DA7BA21A24D4300CC47FA /* get-extra-life.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7A621A24D3F00CC47FA /* get-extra-life.wav */; };
+		F84DA7BB21A24D4300CC47FA /* ice-sledge.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7A721A24D4000CC47FA /* ice-sledge.wav */; };
+		F84DA7BC21A24D4300CC47FA /* credits-new-record.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7A821A24D4000CC47FA /* credits-new-record.mp3 */; };
+		F84DA7BD21A24D4300CC47FA /* hit-undestractable.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7A921A24D4000CC47FA /* hit-undestractable.wav */; };
+		F84DA7BE21A24D4300CC47FA /* hit-desctructuble.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7AA21A24D4100CC47FA /* hit-desctructuble.wav */; };
+		F84DA7BF21A24D4300CC47FA /* points-counter-tick.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7AB21A24D4100CC47FA /* points-counter-tick.wav */; };
+		F84DA7C021A24D4300CC47FA /* armor-tank-damage.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7AC21A24D4100CC47FA /* armor-tank-damage.wav */; };
+		F84DA7C121A24D4300CC47FA /* tank-march.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7AD21A24D4200CC47FA /* tank-march.wav */; };
+		F84DA7C221A24D4300CC47FA /* points-counter-bonus.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7AE21A24D4200CC47FA /* points-counter-bonus.wav */; };
+		F84DA7C321A24D4300CC47FA /* pause.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7AF21A24D4200CC47FA /* pause.wav */; };
+		F84DA7C421A24D4300CC47FA /* start-level.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7B021A24D4300CC47FA /* start-level.mp3 */; };
+		F84DA7C521A24D4300CC47FA /* player-destroyed.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7B121A24D4300CC47FA /* player-destroyed.wav */; };
+		F84DA7C721A24DC300CC47FA /* game-over.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7C621A24DC300CC47FA /* game-over.wav */; };
 		F86C6EF721A1B35400D65A36 /* PrStart.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F86C6EF621A1B35400D65A36 /* PrStart.ttf */; };
 		F8CCA4A621A1B844006014EF /* MainGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CCA4A521A1B844006014EF /* MainGameScene.swift */; };
 		F8CCA4A821A1BD4F006014EF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CCA4A721A1BD4F006014EF /* Utils.swift */; };
@@ -19,6 +39,26 @@
 
 /* Begin PBXFileReference section */
 		F84DA79C21A23E5000CC47FA /* prstartk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = prstartk.ttf; sourceTree = "<group>"; };
+		F84DA79F21A24D3C00CC47FA /* shot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shot.wav; sourceTree = "<group>"; };
+		F84DA7A021A24D3D00CC47FA /* bonus-appeared.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bonus-appeared.wav"; sourceTree = "<group>"; };
+		F84DA7A121A24D3D00CC47FA /* tank-stay.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tank-stay.wav"; sourceTree = "<group>"; };
+		F84DA7A221A24D3E00CC47FA /* evemy-destroyed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "evemy-destroyed.wav"; sourceTree = "<group>"; };
+		F84DA7A321A24D3E00CC47FA /* bonus-taken.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bonus-taken.wav"; sourceTree = "<group>"; };
+		F84DA7A421A24D3F00CC47FA /* Battle City SFX (9).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Battle City SFX (9).wav"; sourceTree = "<group>"; };
+		F84DA7A521A24D3F00CC47FA /* Battle City SFX (8).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Battle City SFX (8).wav"; sourceTree = "<group>"; };
+		F84DA7A621A24D3F00CC47FA /* get-extra-life.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "get-extra-life.wav"; sourceTree = "<group>"; };
+		F84DA7A721A24D4000CC47FA /* ice-sledge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ice-sledge.wav"; sourceTree = "<group>"; };
+		F84DA7A821A24D4000CC47FA /* credits-new-record.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "credits-new-record.mp3"; sourceTree = "<group>"; };
+		F84DA7A921A24D4000CC47FA /* hit-undestractable.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hit-undestractable.wav"; sourceTree = "<group>"; };
+		F84DA7AA21A24D4100CC47FA /* hit-desctructuble.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hit-desctructuble.wav"; sourceTree = "<group>"; };
+		F84DA7AB21A24D4100CC47FA /* points-counter-tick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "points-counter-tick.wav"; sourceTree = "<group>"; };
+		F84DA7AC21A24D4100CC47FA /* armor-tank-damage.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "armor-tank-damage.wav"; sourceTree = "<group>"; };
+		F84DA7AD21A24D4200CC47FA /* tank-march.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tank-march.wav"; sourceTree = "<group>"; };
+		F84DA7AE21A24D4200CC47FA /* points-counter-bonus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "points-counter-bonus.wav"; sourceTree = "<group>"; };
+		F84DA7AF21A24D4200CC47FA /* pause.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pause.wav; sourceTree = "<group>"; };
+		F84DA7B021A24D4300CC47FA /* start-level.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "start-level.mp3"; sourceTree = "<group>"; };
+		F84DA7B121A24D4300CC47FA /* player-destroyed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "player-destroyed.wav"; sourceTree = "<group>"; };
+		F84DA7C621A24DC300CC47FA /* game-over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "game-over.wav"; sourceTree = "<group>"; };
 		F86C6EF621A1B35400D65A36 /* PrStart.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PrStart.ttf; sourceTree = "<group>"; };
 		F8CCA4A521A1B844006014EF /* MainGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameScene.swift; sourceTree = "<group>"; };
 		F8CCA4A721A1BD4F006014EF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -43,6 +83,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F84DA79D21A24D2E00CC47FA /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				F84DA7AC21A24D4100CC47FA /* armor-tank-damage.wav */,
+				F84DA7A521A24D3F00CC47FA /* Battle City SFX (8).wav */,
+				F84DA7A421A24D3F00CC47FA /* Battle City SFX (9).wav */,
+				F84DA7A021A24D3D00CC47FA /* bonus-appeared.wav */,
+				F84DA7A321A24D3E00CC47FA /* bonus-taken.wav */,
+				F84DA7A221A24D3E00CC47FA /* evemy-destroyed.wav */,
+				F84DA7C621A24DC300CC47FA /* game-over.wav */,
+				F84DA7A621A24D3F00CC47FA /* get-extra-life.wav */,
+				F84DA7AA21A24D4100CC47FA /* hit-desctructuble.wav */,
+				F84DA7A921A24D4000CC47FA /* hit-undestractable.wav */,
+				F84DA7A721A24D4000CC47FA /* ice-sledge.wav */,
+				F84DA7A821A24D4000CC47FA /* credits-new-record.mp3 */,
+				F84DA7AF21A24D4200CC47FA /* pause.wav */,
+				F84DA7B121A24D4300CC47FA /* player-destroyed.wav */,
+				F84DA7AE21A24D4200CC47FA /* points-counter-bonus.wav */,
+				F84DA7AB21A24D4100CC47FA /* points-counter-tick.wav */,
+				F84DA79F21A24D3C00CC47FA /* shot.wav */,
+				F84DA7B021A24D4300CC47FA /* start-level.mp3 */,
+				F84DA7AD21A24D4200CC47FA /* tank-march.wav */,
+				F84DA7A121A24D3D00CC47FA /* tank-stay.wav */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
 		F86C6EF521A1B34600D65A36 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +138,7 @@
 		F8E6E00C21A19FB600124C37 /* BattleCityClone */ = {
 			isa = PBXGroup;
 			children = (
+				F84DA79D21A24D2E00CC47FA /* sound */,
 				F86C6EF521A1B34600D65A36 /* fonts */,
 				F8E6E00D21A19FB600124C37 /* AppDelegate.swift */,
 				F8E6E00F21A19FB600124C37 /* MainGameScene.sks */,
@@ -143,10 +211,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F84DA7C021A24D4300CC47FA /* armor-tank-damage.wav in Resources */,
+				F84DA7C321A24D4300CC47FA /* pause.wav in Resources */,
+				F84DA7B321A24D4300CC47FA /* shot.wav in Resources */,
+				F84DA7BC21A24D4300CC47FA /* credits-new-record.mp3 in Resources */,
 				F8E6E01021A19FB600124C37 /* MainGameScene.sks in Resources */,
+				F84DA7B921A24D4300CC47FA /* Battle City SFX (8).wav in Resources */,
+				F84DA7C421A24D4300CC47FA /* start-level.mp3 in Resources */,
+				F84DA7B521A24D4300CC47FA /* tank-stay.wav in Resources */,
+				F84DA7BF21A24D4300CC47FA /* points-counter-tick.wav in Resources */,
+				F84DA7BA21A24D4300CC47FA /* get-extra-life.wav in Resources */,
+				F84DA7B421A24D4300CC47FA /* bonus-appeared.wav in Resources */,
+				F84DA7BE21A24D4300CC47FA /* hit-desctructuble.wav in Resources */,
+				F84DA7BD21A24D4300CC47FA /* hit-undestractable.wav in Resources */,
 				F86C6EF721A1B35400D65A36 /* PrStart.ttf in Resources */,
 				F8E6E01821A19FB700124C37 /* Assets.xcassets in Resources */,
+				F84DA7C521A24D4300CC47FA /* player-destroyed.wav in Resources */,
+				F84DA7C121A24D4300CC47FA /* tank-march.wav in Resources */,
+				F84DA7BB21A24D4300CC47FA /* ice-sledge.wav in Resources */,
 				F8E6E01B21A19FB700124C37 /* Main.storyboard in Resources */,
+				F84DA7B721A24D4300CC47FA /* bonus-taken.wav in Resources */,
+				F84DA7B821A24D4300CC47FA /* Battle City SFX (9).wav in Resources */,
+				F84DA7C221A24D4300CC47FA /* points-counter-bonus.wav in Resources */,
+				F84DA7C721A24DC300CC47FA /* game-over.wav in Resources */,
+				F84DA7B621A24D4300CC47FA /* evemy-destroyed.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
