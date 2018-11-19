@@ -14,7 +14,6 @@ class MainGameScene: SKScene {
     private enum NodeName: String
     {
         case tileMap = "tileMap"
-        case tileBackground = "tileBackground"
     }
     
     private var minimumSizeDimension : CGFloat
@@ -24,7 +23,6 @@ class MainGameScene: SKScene {
     
     
     var tileMap : SKTileMapNode?
-    var tileBackground : SKSpriteNode?
     override func willMove(from view: SKView) {
         super.willMove(from: view)
         print(#function)
@@ -35,11 +33,9 @@ class MainGameScene: SKScene {
         print(#function)
         self.size = view.frame.size
         
-        tileBackground = self.childNode(withName: NodeName.tileBackground.rawValue) as? SKSpriteNode
         tileMap = self.childNode(withName: NodeName.tileMap.rawValue) as? SKTileMapNode
         
         let size = CGSize(width: minimumSizeDimension, height: minimumSizeDimension)
-        tileBackground?.size = size
         
         let tileGroup = SKTileGroup(rules: <#T##[SKTileGroupRule]#>)
         tileMap?.fill
