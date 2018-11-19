@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F84DA79C21A23E5000CC47FA /* prstartk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = prstartk.ttf; sourceTree = "<group>"; };
 		F86C6EF621A1B35400D65A36 /* PrStart.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PrStart.ttf; sourceTree = "<group>"; };
 		F8CCA4A521A1B844006014EF /* MainGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameScene.swift; sourceTree = "<group>"; };
 		F8CCA4A721A1BD4F006014EF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		F86C6EF521A1B34600D65A36 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				F84DA79C21A23E5000CC47FA /* prstartk.ttf */,
 				F86C6EF621A1B35400D65A36 /* PrStart.ttf */,
 			);
 			path = fonts;
