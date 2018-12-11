@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F833278E21BF75F500883655 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F833278D21BF75F500883655 /* SoundManager.swift */; };
 		F84DA7B321A24D4300CC47FA /* shot.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA79F21A24D3C00CC47FA /* shot.wav */; };
 		F84DA7B421A24D4300CC47FA /* bonus-appeared.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7A021A24D3D00CC47FA /* bonus-appeared.wav */; };
 		F84DA7B521A24D4300CC47FA /* tank-stay.wav in Resources */ = {isa = PBXBuildFile; fileRef = F84DA7A121A24D3D00CC47FA /* tank-stay.wav */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F833278D21BF75F500883655 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		F84DA79C21A23E5000CC47FA /* prstartk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = prstartk.ttf; sourceTree = "<group>"; };
 		F84DA79F21A24D3C00CC47FA /* shot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shot.wav; sourceTree = "<group>"; };
 		F84DA7A021A24D3D00CC47FA /* bonus-appeared.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bonus-appeared.wav"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				F8E6E01C21A19FB700124C37 /* Info.plist */,
 				F8E6E01D21A19FB700124C37 /* BattleCityClone.entitlements */,
 				F8CCA4A521A1B844006014EF /* MainGameScene.swift */,
+				F833278D21BF75F500883655 /* SoundManager.swift */,
 				F8CCA4A721A1BD4F006014EF /* Utils.swift */,
 			);
 			path = BattleCityClone;
@@ -249,6 +252,7 @@
 				F8E6E01621A19FB600124C37 /* ViewController.swift in Sources */,
 				F8E6E00E21A19FB600124C37 /* AppDelegate.swift in Sources */,
 				F8CCA4A821A1BD4F006014EF /* Utils.swift in Sources */,
+				F833278E21BF75F500883655 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

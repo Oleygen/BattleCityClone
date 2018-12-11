@@ -17,6 +17,26 @@ class MainGameScene: SKScene {
         case player1 = "player-1"
     }
     
+    public enum KeyboardKey : UInt16
+    {
+        case arrowDown = 125
+        case arrowLeft = 123
+        case arrowUp = 126
+        case arrowRight = 124
+        
+        case w = 13
+        case a = 0
+        case s = 1
+        case d = 2
+        
+        case esc = 53
+        case space = 49
+        case enter = 36
+        case j = 38
+        
+        case anyOtherKey
+    }
+    
     private var minimumSizeDimension : CGFloat
     {
         return min(x: self.size.width, y: self.size.height)
@@ -61,7 +81,35 @@ class MainGameScene: SKScene {
     
     private func handleKeyEvent(event:NSEvent)
     {
-        print(event)
+        let key = KeyboardKey(rawValue: event.keyCode)!
+        switch key {
+        case .arrowDown:
+            print("arrowUp")
+        case .arrowUp:
+            print("arrowUp")
+        case .arrowLeft:
+            print("arrowUp")
+        case .arrowRight:
+            print("arrowUp")
+        case .w:
+            print("w")
+        case .a:
+            print("a")
+        case .s:
+            print("s")
+        case .d:
+            print("s")
+        case .esc:
+            print("esc")
+        case .space:
+            print("space")
+        case .enter:
+            print("enter")
+        case .j:
+            print("j")
+        case .anyOtherKey:
+            print("any other key")
+        }
     }
     
     
